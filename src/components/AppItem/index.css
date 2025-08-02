@@ -1,0 +1,21 @@
+.app-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 18px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 7px;
+}
+
+.appName {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+}
