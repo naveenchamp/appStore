@@ -1,14 +1,15 @@
 /* Write your CSS here */
 .tab-button {
   color: #7b8794;
-  font-size: 20px;
+  font-size: 26px;
   font-family: 'Bree Serif';
   cursor: pointer;
+  list-style-type: none;
   outline: none;
-  border-bottom: 1px solid #7b8794;
+  border-bottom: 2px solid #7b8794;
 }
 
 .active-tab {
   color: #2563eb;
-  border-bottom: 1px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
 }

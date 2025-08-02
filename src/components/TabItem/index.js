@@ -9,8 +9,14 @@ const TabItem = props => {
   const activeClass = isActive ? 'active-tab' : ''
 
   return (
-    <li className={`tab-button ${activeClass}`} onClick={handleClick}>
-      {displayText}
+    <li>
+      <button
+        className={`tab-button ${activeClass}`}
+        type="button"
+        onClick={handleClick}
+      >
+        {displayText}
+      </button>
     </li>
   )
 }

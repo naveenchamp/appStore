@@ -1,4 +1,3 @@
-
 .app-store-container {
   background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
   background-size: cover;
@@ -44,18 +43,19 @@
 
 .tabs-container {
   display: flex;
-  gap: 16px;
   margin-bottom: 22px;
-  border-bottom: 1px solid #dfe2e5; 
+  list-style-type: none;
+  border-bottom: 1px solid #dfe2e5;
 }
-
 
 .tab-button {
   font-family: 'Bree Serif';
   font-size: 16px;
+  padding: 24px;
   background-color: transparent;
   cursor: pointer;
-  list-style-type: none;
+  font-weight: 600;
+  border: none;
 }
 
 .apps-container {
